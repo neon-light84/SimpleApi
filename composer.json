@@ -1,0 +1,21 @@
+{
+    "name": "pavel-goroshnikov/simple-api",
+    "description": "Pavel's first test library",
+    "type": "library",
+    "license": "gpl",
+    "autoload": {
+        "psr-4": {
+            "PavelGoroshnikov\\SimpleApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "neon-light84",
+            "email": "goroshnikov.pavel@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.8"
+    }
+}
