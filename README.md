@@ -1,17 +1,22 @@
 #  Факты о котах.
 
-Простейшее API. 
+Простейшее API. Просто возвращает некий случайный факт о котах.
 
 ## Требования
 
-- PHP 8.2
+- PHP 8.0
 
 ## Установка
-
-composer require 
+```
+composer require pavel-goroshnikov/simple-api
+```
 
 ## Использование
 ```php
-<?php
-echo (new \PavelGoroshnikov\SimpleApi\Cat())->getFact();
+use PavelGoroshnikov\SimpleApi\Cat;
+$cat = new Cat();
+$fact = $cat->getFact();
 ```
+
+## Благодарности
+Сервису https://catfact.ninja/ , чей API был использован.
