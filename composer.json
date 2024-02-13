@@ -2,7 +2,7 @@
     "name": "pavel-goroshnikov/simple-api",
     "description": "Pavel's first test library",
     "type": "library",
-    "license": "GNU",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "PavelGoroshnikov\\SimpleApi\\": "src/"
